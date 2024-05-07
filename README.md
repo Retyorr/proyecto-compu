@@ -1,1 +1,1 @@
-holatienda de ropa vintage y retro, llamada "RetroStyle"
+tienda de ropa vintage y retro, llamada "RetroStyle"
