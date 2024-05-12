@@ -6,6 +6,34 @@
   list-style: none;
 
 }
+
+
+.icon-button {
+  background-color: #beb121; /* Color de fondo del botón */
+  color: #ffffff; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  padding: 5px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima */
+  transition: background-color 0.3s; /* Transición suave */
+  margin-bottom: 5px; /* Espaciado inferior */
+}
+
+.icon-button:hover {
+  background-color: #ffffff; /* Color de fondo del botón al pasar por encima */
+}
+
+.icon-button i {
+  margin-right: 5px; /* Espaciado entre el icono y el texto */
+  }
+
+.h {
+color: rgb(121, 206, 177);
+}
+
+.m {
+  color: rgb(155, 124, 165);
+  }
 p{
     color: blueviolet;
     text-align: center;
