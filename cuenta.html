@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Form</title>
+    <style>
+        .vintage-form {
+            max-width: 300px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f8f8f8;
+        }
+
+        .vintage-form label {
+            font-size: 14px;
+            color: #333;
+        }
+
+        .vintage-form input[type="email"],
+        .vintage-form input[type="password"],
+        .vintage-form input[type="checkbox"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #939941;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+
+        .vintage-form button[type="submit"] {
+            padding: 8px 16px;
+            font-size: 14px;
+            border: none;
+            border-radius: 3px;
+            background-color: #4caf50;
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .vintage-form button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<form class="vintage-form">
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">No compartimos el correo electrónico con nadie (incluso ni se guarda :c)</div>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">presiona esto pq si, no pensabamos que tenias una cuenta en esta pagina recien creada</label>
+    </div>
+    <button type="submit" class="btn btn-primary" >   <a href="index.html"> Submit</a></button>
+    
+</form>
+
+</body>
+</html>
