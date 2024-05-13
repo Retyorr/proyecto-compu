@@ -283,10 +283,6 @@ html {
 /* ********************************** */
 /*               HEADER               */
 /* ********************************** */
-.container-hero {
-	background-color: var(--background-color);
-}
-
 .hero {
 	display: flex;
 	justify-content: space-between;
@@ -305,13 +301,6 @@ P{
 	color: blueviolet;
 	text-align: center;
 	font-size: 2rem;
-}
-
-.container-user .fa-user {
-	font-size: 3rem;
-	color: var(--primary-color);
-	padding-right: 2.5rem;
-	border-right: 1px solid #e2e2e2;
 }
 
 /* Products */
